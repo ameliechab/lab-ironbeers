@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-link {
+  background-color: #2081c3;
+}
+
+.nav-link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 1.8rem 1rem;
+  font-size: 1.2rem;
+}
+
+#home-link {
+  padding-left: 5rem;
+}
+
+.partial {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.partial2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.beer-image {
+  height: 200px;
+  padding-left: 5rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: center;
+  padding: 2rem 20rem;
+}
+
+#tagline {
+  font-style: italic;
+}
